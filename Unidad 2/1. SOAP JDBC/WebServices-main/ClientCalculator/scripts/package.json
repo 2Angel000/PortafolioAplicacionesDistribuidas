@@ -1,0 +1,11 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "prueba-iniciar",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

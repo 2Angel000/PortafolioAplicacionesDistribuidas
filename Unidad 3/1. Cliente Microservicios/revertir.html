@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="img/cuadra.png" type="image/x-icon">
+    <title>Microoservicios</title>
+</head>
+<body class="bg-[#f0f9ff] text-[#082f49]">
+    <header class="w-full flex justify-between items-center bg-[#0c4a6e] py-8 px-16 text-[#e0f2fe]">
+        <img class="w-12" src="img/cuadra.png" alt="img">
+        <nav>
+            <ul class="flex gap-8">
+                <li><a href="index.html">CONTADOR DE PALABRAS</a></li>
+                <li><a href="revertir.html">REVERTIR TEXTO</a></li>
+                <li><a href="convertir.html">CONVERTIR NÚMERO A TEXTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="w-full flex flex-col justify-center items-center text-[#f0f9ff] mt-16">
+            <div class="flex justify-center items-center bg-[#0369a1] w-3/5 p-6 rounded-md">
+                <label class="w-1/4" for="texto">Revertir texto:</label>
+                <input class="w-2/3 p-2 rounded-md text-[#082f49]" type="text" id="texto">
+            </div>
+                
+            <button class="bg-[#0369a1] text-[#f0f9ff] hover:bg-[#0284c7] py-2 px-8 mt-8 rounded-md" onclick="revertirTexto()">Revertir Texto</button>
+           
+            <div class="w-3/5 rounded-md text-center text-[#082f49] p-2 mt-4" id="resultado">
+
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
